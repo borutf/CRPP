@@ -26,7 +26,7 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3b427c25f04a9e5ea68a6243460e643f">
+		["MD5-CAM-1.0.1"] = <"f8a5c2fcb67de116477bd54c1b08742c">
 		["build_uid"] = <"72007865-4f12-3820-9dde-7c05e11404ac">
 	>
 
@@ -61,6 +61,11 @@ definition
 													>
 												>
 											>
+										}
+									}
+									ELEMENT[at0009] occurrences matches {0..1} matches {    -- Nickname
+										value matches {
+											DV_TEXT matches {*}
 										}
 									}
 								}
@@ -110,6 +115,10 @@ ontology
 				>
 				["at0008"] = <
 					text = <"Height">
+					description = <"">
+				>
+				["at0009"] = <
+					text = <"Nickname">
 					description = <"">
 				>
 			>
